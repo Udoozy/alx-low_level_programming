@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints sizeof different bits of OS
+ * main - Prints sizeof different bits of OS
  *
- * Rerurn: Always return 0 success
+ * Return: Always success 0
  */
 int main(void)
 {
