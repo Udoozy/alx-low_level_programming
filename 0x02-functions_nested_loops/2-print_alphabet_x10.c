@@ -4,7 +4,7 @@
  *
  * Return: Always return success
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	char a = 'a';
 	int b = 0;
