@@ -2,8 +2,7 @@
 #include "main.h"
 /**
  * times_table - Prints 9 times table starting from 0
- * @l: Argument 1
- * @m: Argument 2
+ *
  * Return: Always 0 success
  */
 void times_table(void)
