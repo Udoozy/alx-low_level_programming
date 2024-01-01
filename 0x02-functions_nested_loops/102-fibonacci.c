@@ -10,12 +10,12 @@ int main(void)
 	unsigned long int n = 50;
 	unsigned long int num_1 = 1, num_2 = 2, nextnum;
 
-	printf("%d, %d, ", num_1, num_2);
+	printf("%lu, %lu, ", num_1, num_2);
 
 	for (i = 3; i <= n; i++)
 	{
 		nextnum = num_1 + num_2;
-		printf("%d", nextnum);
+		printf("%lu", nextnum);
 		if (i != n)
 		{
 			printf(",");
