@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int num1 = 1;
 	unsigned long int  num2 = 2;
 	unsigned long int nextnum;
-	int i;
+	unsigned long int i;
 
 	printf("%lu, %lu, ", num1, num2);
 
