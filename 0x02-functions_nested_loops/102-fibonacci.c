@@ -5,7 +5,7 @@
  *
  * Return: Always return 0 success
  */
-int main(voi)
+int main(void)
 {
 	unsigned long int n = 50;
 	unsigned long int num1 = 1;
