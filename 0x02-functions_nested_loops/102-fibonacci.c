@@ -6,8 +6,9 @@
  */
 int main(void)
 {
-	int n = 50;
-	int i, num_1 = 1, num_2 = 2, nextnum;
+	int i;
+	unsigned long int n = 50;
+	unsigned long int num_1 = 1, num_2 = 2, nextnum;
 
 	printf("%d, %d, ", num_1, num_2);
 
