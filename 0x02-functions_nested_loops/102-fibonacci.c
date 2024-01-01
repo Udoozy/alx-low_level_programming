@@ -1,13 +1,16 @@
 #include <stdio.h>
+#include <limits.h>
 /**
  * main - Prints first 50 Fibonacci number from 1 and 2
  *
  * Return: Always return 0 success
  */
-int main(void)
+int main(voi)
 {
 	unsigned long int n = 50;
-	unsigned long int num1 = 1, num2 = 2, nextnum;
+	unsigned long int num1 = 1;
+	unsigned long int  num2 = 2;
+	unsigned long int nextnum;
 	int i;
 
 	printf("%lu, %lu, ", num1, num2);
