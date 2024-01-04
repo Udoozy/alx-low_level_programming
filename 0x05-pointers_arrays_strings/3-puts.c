@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _puts - Prints trings to stdout
  * @str: String parameter
@@ -7,7 +6,8 @@
  */
 void _puts(char *str)
 {
-	char (*str)[];
+	int n;
 
-	puts(str);
+	for (n = 0; str[n] != '\0'; n++)
+		_puts(str[n]);
 }
