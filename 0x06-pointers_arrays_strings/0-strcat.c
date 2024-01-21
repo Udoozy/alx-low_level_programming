@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _strcat - Function that concatenate two strings
  * @dest: An Argument
@@ -18,6 +18,6 @@ char *_strcat(char *dest, char *src)
 		*dest++ = src++;
 	}
 	*dest = '\0';
-		return (ptr_dest);
+		return (ptr_desti);
 
 }
