@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main - Prints name of a file
  * @argc: Argument count
