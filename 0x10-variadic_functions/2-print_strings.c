@@ -18,7 +18,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		str_ptr = va_arg(d_string, char *);
 		if (str_ptr == NULL)
 		{
-			printf("nil");
+			printf("(nil)");
 		}
 		else
 		{
