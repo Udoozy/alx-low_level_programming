@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Prints all the argument passed 
+ * main - Prints all the argument passed
  * @argc: Argment param
  * @argv: Argument value param
  * Return: Always 0
