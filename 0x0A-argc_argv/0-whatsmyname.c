@@ -6,8 +6,11 @@
  * @argv: Argument vector
  * Return: Always 0
  */
-int main(int argc__attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
+	if (argc > 0)
+	{
+		printf("%s\n", argv[0]);
+	}
 	return (0);
 }
