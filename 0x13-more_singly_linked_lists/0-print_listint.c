@@ -6,7 +6,7 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	unsigned int counter;
+	size_t counter;
 
 	if (h == NULL)
 		return (0);
@@ -16,6 +16,4 @@ size_t print_listint(const listint_t *h)
 		h = h->next;
 	}
 	return (counter);
-
-
 }
