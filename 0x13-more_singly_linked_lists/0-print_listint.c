@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * print_listint - Print all element of listint
  * @h: An Argument for the head pointer
