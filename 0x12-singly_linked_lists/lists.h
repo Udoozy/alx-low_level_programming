@@ -1,7 +1,7 @@
 #ifndef LINKED_LIST
 #define LINKED_LIST
 
-#include <stdef.h>
+#include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
 
