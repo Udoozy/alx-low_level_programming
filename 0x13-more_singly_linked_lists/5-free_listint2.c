@@ -4,7 +4,7 @@
  * @head: Pointer to the first node
  * Return: void
  */
-void free_listint2(listint_t **head);
+void free_listint2(listint_t **head)
 {
 	listint_t *ptr;
 
