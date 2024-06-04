@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * print_times_table - This function prints times of a given num
+ * @n: The Argument given
+ */
 void print_times_table(int n)
 {
 	int product;
