@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - THis comutes the sum of even fab <= 4000000
+ *
+ * Return: Always zero
+ */
 
 int main(void)
 {
@@ -17,5 +22,5 @@ int main(void)
 		j = next;
 	}
 	printf("%d\n", sum);
-	return 0;
+	return (0);
 }
