@@ -8,7 +8,7 @@
 char *cap_string(char *str)
 {
 	int i = 0;
-	char separator[] = "\t\n,;.!?\"(){}";
+	char separator[] = "\t\n,;.!?\"(){} ' '";
 
 	if (str[i] >= 'a' && str[i] <= 'z')
 	{
