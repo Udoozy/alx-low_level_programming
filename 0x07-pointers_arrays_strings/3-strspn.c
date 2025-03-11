@@ -5,7 +5,6 @@
  * @accept: The accepted character
  * Return: Always an integer
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	int count = 0;
