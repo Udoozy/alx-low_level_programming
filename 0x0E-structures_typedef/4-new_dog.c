@@ -10,7 +10,7 @@
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
-	int name_len = 0, owner_len = 0;
+	int name_len = 0, owner_len = 0, i;
 
 	while (name[name_len])
 		name_len++;
@@ -35,11 +35,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	for (int i = 0; i < name_len; i++)
+	for (i = 0; i < name_len; i++)
 		dog->name[i] = name[i];
 	dog->name[name_len] = '\0';
 
-	for (int i = 0; i < owner_len; i++)
+	for (i = 0; i < owner_len; i++)
 		dog->owner[i] = owner[i];
 	dog->owner[owner_len] = '\0';
 
