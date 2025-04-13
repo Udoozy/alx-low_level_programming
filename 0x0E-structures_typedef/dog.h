@@ -22,4 +22,6 @@ typedef struct dog dog_t;
  * Description: This typedef creates an alias for the struct dog type,
  * allowing us to use dog_t as a shorthand for struct dog.
  */
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 #endif /* DOG_H */
